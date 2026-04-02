@@ -51,6 +51,7 @@
   ./hardware/acpilight.nix
   ./hardware/all-firmware.nix
   ./hardware/all-hardware.nix
+  ./hardware/amd-npu.nix
   ./hardware/apple-touchbar.nix
   ./hardware/bladeRF.nix
   ./hardware/brillo.nix
