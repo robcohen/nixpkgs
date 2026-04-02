@@ -22597,6 +22597,12 @@
     githubId = 31457698;
     name = "Nathanael Robbins";
   };
+  robcohen = {
+    email = "rob@robcohen.dev";
+    github = "robcohen";
+    githubId = 3231868;
+    name = "Rob Cohen";
+  };
   roberth = {
     email = "nixpkgs@roberthensing.nl";
     matrix = "@roberthensing:matrix.org";
