@@ -26,8 +26,8 @@ stdenv.mkDerivation (finalAttrs: {
   src = fetchFromGitHub {
     owner = "amd";
     repo = "xdna-driver";
-    rev = finalAttrs.version;
-    hash = "sha256-vXA8MzY0+KNquDG7jY3pZkm6lyM+V493xRmojl+wuIw=";
+    rev = "2.21.75";
+    hash = "sha256-bBiI42bwap6O59MQdIylX7uz+fLUF75RTyNWTJfAFds=";
     fetchSubmodules = true;
   };
 
@@ -35,7 +35,7 @@ stdenv.mkDerivation (finalAttrs: {
   xrtSrc = fetchFromGitHub {
     owner = "Xilinx";
     repo = "XRT";
-    rev = finalAttrs.version;
+    rev = "202610.2.21.21";
     hash = "sha256-Foj33/U6waL81EzJ0ah66xCXEGWEkvhwmurKobfCevE=";
     fetchSubmodules = true;
   };
